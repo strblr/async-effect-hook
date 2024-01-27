@@ -1,0 +1,47 @@
+{
+  "name": "async-effect-hook",
+  "version": "1.0.0",
+  "description": "useEffect but for async effects, with clean-up, safe and easy",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strblr/async-effect-hook.git"
+  },
+  "keywords": [
+    "hook",
+    "react",
+    "effect",
+    "useEffect",
+    "use-effect",
+    "use",
+    "async",
+    "async-effect",
+    "async-effect-hook",
+    "promise",
+    "await",
+    "clean-up",
+    "asynchronous"
+  ],
+  "author": "strblr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strblr/async-effect-hook/issues"
+  },
+  "homepage": "https://github.com/strblr/async-effect-hook#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.48",
+    "prettier": "^3.2.4",
+    "react": "^18.2.0",
+    "typescript": "^5.3.3"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "trailingComma": "none",
+    "quoteProps": "consistent"
+  }
+}
